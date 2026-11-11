@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ziniao_amz2"
+version = "2.0.0"
+description = "紫鸟浏览器 + 亚马逊卖家后台自动化操作模块 V2.0"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "playwright>=1.40.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-playwright",
+]
+
+[tool.setuptools.packages.find]
+include = ["a2autolib2*"]

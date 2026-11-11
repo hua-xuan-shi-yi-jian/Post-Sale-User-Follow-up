@@ -1,0 +1,48 @@
+# Local credentials and customer data
+.env
+.env.*
+!.env.example
+config.json
+回访信息.txt
+亚马逊已购用户批量发送产品说明书邮件.txt
+output/
+*.csv
+*.tsv
+*.xls*
+*.pdf
+说明书/
+订单管理页元素.txt
+*HTML.txt
+*.har
+*.log
+
+# Python and browser caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.playwright/
+
+# Build artifacts and local distributions
+build/
+dist/
+backups/
+分发版_*/
+*.exe
+*.zip
+.tk-runtime/
+
+# Desktop files and local assistant state
+*.lnk
+Thumbs.db
+Desktop.ini
+.DS_Store
+.claude/
+.trellis/
+.agents/
+.codex/
